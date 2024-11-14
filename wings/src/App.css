@@ -1,0 +1,201 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif; /* Sets the main font */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background color */
+}
+
+/* Container for Product Management */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Form container styling */
+.form-container {
+  max-width: 600px; /* Max width for the form */
+  margin: 20px; /* Centers form with margin */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Adds subtle shadow */
+  background-color: #e9f5ff;
+}
+
+.form-header {
+  text-align: center; /* Center-aligns form title */
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+/* Input fields styling */
+.input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px;
+}
+
+/* Form button styling */
+.button {
+  padding: 10px;
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Adds smooth color transition */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darkens on hover */
+}
+
+/* Center-aligned text at the bottom of the form */
+.form-container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Navigation styling */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 1em 0;
+}
+
+/* General button styling */
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.3s; /* Transition for hover effects */
+}
+
+button:hover {
+  background-color: #777; /* Lighter color on hover */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Section container styling */
+.section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Password input styling */
+.password-container {
+  display: flex;
+  align-items: center; /* Aligns items in the center */
+}
+
+.show-password-button {
+  margin-left: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* Footer styling */
+.App-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Error message styling */
+.error {
+  color: red; /* Red color for errors */
+}
+
+.success {
+  color: green; /* Green color for success messages */
+}
+
+/* Table styling */
+table {
+  width: 100%; /* Full-width table */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd; /* Light border */
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2; /* Light gray background for headers */
+}
+
+/* Dashboard-specific styling */
+.low-stock {
+  background-color: #ffdddd; /* Red background for low stock warning */
+  color: #d9534f;
+}
+
+/* Action button styling */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Action button group styling */
+.action-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Smaller space between buttons in each group */
+}
+
+.action-group button {
+  padding: 5px 10px;
+  font-size: 0.9rem; /* Smaller font size for buttons */
+}
+
+/* Image preview styling */
+.imagePreview {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Manage button styling */
+.manageButton {
+  padding: 8px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
+
+.addButton {
+  background-color: #28a745;
+}
+
+.sellButton {
+  background-color: #ffc107;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+}
